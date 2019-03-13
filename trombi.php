@@ -1,3 +1,82 @@
+<?php
+    include '_head.php';
+?>
+<body>
+
+<?php
+    include '_header.php';
+?>
+
+<div class="container-fluid">
+    <div class="form-title-box">
+        <h2 class="form-title"><span class="form-title-bold"><span class="color-wild">T</span>rombinoscope</span></h2>
+        <div class="form-underline"></div>
+    </div>
+    <div class="row">
+        <div class="trombi-box-pict col-12 col-md-4">
+            <a href="profil-guillaume.html"><img class="trombi-pict" src="images/guillaume.jpg" alt="photo de profil 1"></a>
+            <div class="trombi-bloc-text col-12">
+                <p class="trombi-text-title">Guillaume Loup</p>
+                <p class="trombi-text-subtitle">Langage JS</p>
+            </div>
+        </div>
+        <div class="trombi-box-pict col-12 col-md-4">
+            <a href="profil-jimmy.html"><img class="trombi-pict" src="images/jimmy.jpg" alt="photo de profil 2"></a>
+            <div class="trombi-bloc-text col-12">
+                <p class="trombi-text-title">Jimmy Achour</p>
+                <p class="trombi-text-subtitle">Langage PHP</p>
+            </div>
+        </div>
+        <div class="trombi-box-pict col-12 col-md-4">
+            <a href="profil-maxime.html"><img class="trombi-pict" src="images/max.png" alt="photo de profil 3"></a>
+            <div class="trombi-bloc-text col-12">
+                <p class="trombi-text-title">Maxime Vasseur</p>
+                <p class="trombi-text-subtitle">Langage PHP</p>
+            </div>
+        </div>
+        <div class="trombi-box-pict col-12 col-md-4">
+            <a href="profil-florent.html"><img class="trombi-pict" src="images/florent.jpeg" alt="photo de profil 4"></a>
+            <div class="trombi-bloc-text col-12">
+                <p class="trombi-text-title">Florent Duval</p>
+                <p class="trombi-text-subtitle">Langage PHP</p>
+            </div>
+        </div>
+        <div class="trombi-box-pict col-12 col-md-4">
+            <a href="profil-florent.html"><img class="trombi-pict " src="images/img5.jpg" alt="photo de profil 5"></a>
+            <div class="trombi-bloc-text col-12">
+                <p class="trombi-text-title">Nom Prenom</p>
+                <p class="trombi-text-subtitle">Langage</p>
+            </div>
+        </div>
+        <div class="trombi-box-pict col-12 col-md-4">
+            <a href="profil-florent.html"><img class="trombi-pict" src="images/img6.jpg" alt="photo de profil 6"></a>
+            <div class="trombi-bloc-text col-12">
+                <p class="trombi-text-title">Nom Prenom</p>
+                <p class="trombi-text-subtitle">Langage</p>
+            </div>
+        </div>
+        <div class="trombi-box-pict col-12 col-md-4">
+            <a href="profil-florent.html"><img class="trombi-pict" src="images/img7.jpg" alt="photo de profil 7"></a>
+            <div class="trombi-bloc-text col-12">
+                <p class="trombi-text-title">Nom Prenom</p>
+                <p class="trombi-text-subtitle">Langage</p>
+            </div>
+        </div>
+        <div class="trombi-box-pict col-12 col-md-4">
+            <a href="profil-florent.html"><img class="trombi-pict" src="images/img8.jpg" alt="photo de profil 8"></a>
+            <div class="trombi-bloc-text col-12">
+                <p class="trombi-text-title">Nom Prenom</p>
+                <p class="trombi-text-subtitle">Langage</p>
+            </div>
+        </div>
+        <div class="trombi-box-pict col-12 col-md-4">
+            <a href="profil-florent.html"><img class="trombi-pict" src="images/img1.jpg" alt="photo de profil 1"></a>
+            <div class="trombi-bloc-text col-12">
+                <p class="trombi-text-title">Nom Prenom</p>
+                <p class="trombi-text-subtitle">Langage</p>
+            </div>
+        </div>
+</div>
 <footer class="page-footer font-small stylish-color-dark pt-4 nav-footer">
     <div class="container-fluid text-center text-md-left">
         <div class="row">
@@ -24,13 +103,13 @@
                 <h5 class="font-weight-bold text-uppercase mt-3 mb-4"><span class="ligne">Plan du site</span></h5>
                 <ul class="list-unstyled links">
                     <li>
-                        <a href="index.php">Accueil</a>
+                        <a href="index.html">Accueil</a>
                     </li>
                     <li>
-                        <a href="trombi.php">Promo 2019</a>
+                        <a href="trombi.html">Promo 2019</a>
                     </li>
                     <li>
-                        <a href="contact.php">Contact</a>
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -80,7 +159,7 @@
     </ul>
     <hr>
     <div class="footer-copyright text-center py-3">Made with love by
-<a href="https:wildcodeschool.com"><span class="rose-link"> les4fantasGit.com</span></a>
+        <a href="https:wildcodeschool.com"><span class="rose-link"> les4fantasGit.com</span></a>
     </div>
 </footer>
 <script src="projet.js"></script>
@@ -99,3 +178,5 @@
         });
     }).resize();
 </script>
+</body>
+</html>
