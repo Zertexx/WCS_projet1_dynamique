@@ -2,9 +2,17 @@
 $cards = [
 
     'guillaume',
-    'max',
+    'maxime',
     'jimmy',
-    'flo',
+    'florent',
+    'guillaume',
+    'maxime',
+    'jimmy',
+    'florent',
+    'guillaume',
+    'maxime',
+    'jimmy',
+    'florent',
 ];
 
 
@@ -20,7 +28,7 @@ $cards = [
         foreach ($cards as $profile){
             ?>
         <div class="trombi-box-pict col-12 col-md-4">
-            <a href="profil-<?php echo ($profile) ?>.html"><img class="trombi-pict" src="images/guillaume.jpg" alt="photo de profil 1"></a>
+            <a href="profil-<?php echo ($profile) ?>.html"><img class="trombi-pict" src="images/<?php echo ($profile) ?>.jpg" alt="photo de profil 1"></a>
             <div class="trombi-bloc-text col-12">
                 <p class="trombi-text-title">Guillaume Loup</p>
                 <p class="trombi-text-subtitle">Langage JS</p>
